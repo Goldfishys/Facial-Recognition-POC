@@ -4,14 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
-import { LoginPageComponent } from './login-page/login-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    LoginPageComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
